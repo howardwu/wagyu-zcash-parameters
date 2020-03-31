@@ -1,6 +1,6 @@
 [package]
 name = "wagyu-zcash-parameters"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
     "Collin Chin",
     "Raymond Chu",
@@ -35,12 +35,12 @@ name = "load_sapling_parameters"
 path = "examples/load_sapling_parameters.rs"
 
 [dependencies]
-wagyu-zcash-parameters-1 = { path = "./wagyu-zcash-parameters-1", version = "0.1.0" }
-wagyu-zcash-parameters-2 = { path = "./wagyu-zcash-parameters-2", version = "0.1.0" }
-wagyu-zcash-parameters-3 = { path = "./wagyu-zcash-parameters-3", version = "0.1.0" }
-wagyu-zcash-parameters-4 = { path = "./wagyu-zcash-parameters-4", version = "0.1.0" }
-wagyu-zcash-parameters-5 = { path = "./wagyu-zcash-parameters-5", version = "0.1.0" }
-wagyu-zcash-parameters-6 = { path = "./wagyu-zcash-parameters-6", version = "0.1.0" }
+wagyu-zcash-parameters-1 = { path = "./wagyu-zcash-parameters-1", version = "0.2.0" }
+wagyu-zcash-parameters-2 = { path = "./wagyu-zcash-parameters-2", version = "0.2.0" }
+wagyu-zcash-parameters-3 = { path = "./wagyu-zcash-parameters-3", version = "0.2.0" }
+wagyu-zcash-parameters-4 = { path = "./wagyu-zcash-parameters-4", version = "0.2.0" }
+wagyu-zcash-parameters-5 = { path = "./wagyu-zcash-parameters-5", version = "0.2.0" }
+wagyu-zcash-parameters-6 = { path = "./wagyu-zcash-parameters-6", version = "0.2.0" }
 
 [profile.release]
 opt-level = 3

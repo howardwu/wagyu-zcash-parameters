@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 [[package]]
 name = "wagyu-zcash-parameters"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "wagyu-zcash-parameters-1",
  "wagyu-zcash-parameters-2",
@@ -14,24 +14,24 @@ dependencies = [
 
 [[package]]
 name = "wagyu-zcash-parameters-1"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "wagyu-zcash-parameters-2"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "wagyu-zcash-parameters-3"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "wagyu-zcash-parameters-4"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "wagyu-zcash-parameters-5"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "wagyu-zcash-parameters-6"
-version = "0.1.0"
+version = "0.2.0"

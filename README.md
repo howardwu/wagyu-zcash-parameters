@@ -3,11 +3,17 @@
 [![Authors](https://img.shields.io/badge/authors-Aleo-orange.svg)](./AUTHORS)
 [![License](https://img.shields.io/badge/license-MIT/Apache--2.0-blue.svg)](./LICENSE-MIT)
 
-This library provides native Zcash Sapling parameters as buffers.
+This library imports Zcash Sapling parameters natively into your Rust code.
 
 ## Usage
 
-Use this library in your Rust code as follows:
+Use this library in your Rust code, add the following to your `Cargo.toml`:
+```$xslt
+[dependencies]
+wagyu-zcash-parameters = { version = "0.2.0" }
+```
+
+In your Rust code, add the following:
 
 ```rust
 use wagyu_zcash_parameters::load_sapling_parameters;
