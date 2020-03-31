@@ -26,6 +26,10 @@ members = [
     "wagyu-zcash-parameters-6",
 ]
 
+[[example]]
+name = "load_sapling_parameters"
+path = "examples/load_sapling_parameters.rs"
+
 [dependencies]
 wagyu-zcash-parameters-1 = { path = "./wagyu-zcash-parameters-1", version = "0.1.0" }
 wagyu-zcash-parameters-2 = { path = "./wagyu-zcash-parameters-2", version = "0.1.0" }

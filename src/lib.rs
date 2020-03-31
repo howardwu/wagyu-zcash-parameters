@@ -11,7 +11,7 @@
 mod tests;
 
 /// Returns a tuple of `(Spend, Output)` parameters as buffers.
-pub(crate) fn load_sapling_parameters() -> (Vec<u8>, Vec<u8>) {
+pub fn load_sapling_parameters() -> (Vec<u8>, Vec<u8>) {
     let mut spend_buffer1 = wagyu_zcash_parameters_1::load_partial_parameters();
     let mut spend_buffer2 = wagyu_zcash_parameters_2::load_partial_parameters();
     let mut spend_buffer3 = wagyu_zcash_parameters_3::load_partial_parameters();

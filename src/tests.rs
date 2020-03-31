@@ -3,8 +3,8 @@ use crate::load_sapling_parameters;
 use std::fs::File;
 use std::io::Read;
 
-const SAPLING_SPEND_PATH: &str = "src/sapling-spend.params";
-const SAPLING_OUTPUT_PATH: &str = "src/sapling-output.params";
+const SAPLING_SPEND_PATH: &str = "src/archived/sapling-spend.params";
+const SAPLING_OUTPUT_PATH: &str = "src/archived/sapling-output.params";
 
 fn original_parameters() -> (Vec<u8>, Vec<u8>) {
     let mut spend_fs = File::open(SAPLING_SPEND_PATH).expect("couldn't load Sapling spend parameters file");
