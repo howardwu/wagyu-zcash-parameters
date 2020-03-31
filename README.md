@@ -37,9 +37,9 @@ from a collection of crates published specifically for constructing the Zcash Sa
 
 ## Developers
 
-To run the test, run:
+To run the tests, run:
 ```$xslt
-cargo test
+cargo test --all
 ```
 
 To run the example, run:
