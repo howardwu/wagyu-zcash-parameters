@@ -1,0 +1,24 @@
+[package]
+name = "wagyu-zcash-parameters"
+version = "0.1.0"
+authors = ["Howard Wu"]
+edition = "2018"
+
+[workspace]
+
+members = [
+    "wagyu-zcash-parameters-1",
+    "wagyu-zcash-parameters-2",
+    "wagyu-zcash-parameters-3",
+    "wagyu-zcash-parameters-4",
+    "wagyu-zcash-parameters-5",
+    "wagyu-zcash-parameters-6",
+]
+
+[dependencies]
+wagyu-zcash-parameters-1 = { path = "./wagyu-zcash-parameters-1", version = "0.1.0" }
+wagyu-zcash-parameters-2 = { path = "./wagyu-zcash-parameters-2", version = "0.1.0" }
+wagyu-zcash-parameters-3 = { path = "./wagyu-zcash-parameters-3", version = "0.1.0" }
+wagyu-zcash-parameters-4 = { path = "./wagyu-zcash-parameters-4", version = "0.1.0" }
+wagyu-zcash-parameters-5 = { path = "./wagyu-zcash-parameters-5", version = "0.1.0" }
+wagyu-zcash-parameters-6 = { path = "./wagyu-zcash-parameters-6", version = "0.1.0" }
