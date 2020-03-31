@@ -1,11 +1,22 @@
 [package]
 name = "wagyu-zcash-parameters"
 version = "0.1.0"
-authors = ["Howard Wu"]
+authors = [
+    "Collin Chin",
+    "Raymond Chu",
+    "Ali Mousa",
+    "Howard Wu"
+]
+description = "A library for loading Zcash Sapling parameters"
+homepage = "https://github.com/AleoHQ/wagyu-zcash-parameters"
+repository = "https://github.com/AleoHQ/wagyu-zcash-parameters"
+categories = ["cryptography", "caching"]
+keywords = ["blockchain", "crypto", "cryptocurrency", "sapling", "zcash"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
 edition = "2018"
 
 [workspace]
-
 members = [
     "wagyu-zcash-parameters-1",
     "wagyu-zcash-parameters-2",
@@ -22,3 +33,25 @@ wagyu-zcash-parameters-3 = { path = "./wagyu-zcash-parameters-3", version = "0.1
 wagyu-zcash-parameters-4 = { path = "./wagyu-zcash-parameters-4", version = "0.1.0" }
 wagyu-zcash-parameters-5 = { path = "./wagyu-zcash-parameters-5", version = "0.1.0" }
 wagyu-zcash-parameters-6 = { path = "./wagyu-zcash-parameters-6", version = "0.1.0" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+incremental = true
+
+[profile.bench]
+opt-level = 3
+debug = false
+rpath = false
+lto = "thin"
+incremental = true
+debug-assertions = false
+
+[profile.dev]
+opt-level = 0
+
+[profile.test]
+opt-level = 3
+incremental = true
+debug-assertions = true
+debug = true

@@ -1,7 +1,18 @@
 [package]
 name = "wagyu-zcash-parameters-1"
 version = "0.1.0"
-authors = ["Howard Wu"]
+authors = [
+    "Collin Chin",
+    "Raymond Chu",
+    "Ali Mousa",
+    "Howard Wu"
+]
+description = "A library for loading Zcash Sapling parameters"
+repository = "https://github.com/AleoHQ/wagyu-zcash-parameters"
+categories = ["cryptography", "caching"]
+keywords = ["blockchain", "crypto", "cryptocurrency", "sapling", "zcash"]
+readme = "README.md"
+license = "MIT/Apache-2.0"
 edition = "2018"
 
 [lib]
