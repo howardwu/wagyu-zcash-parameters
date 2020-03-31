@@ -16,6 +16,10 @@ readme = "README.md"
 license = "MIT/Apache-2.0"
 edition = "2018"
 
+exclude = [
+    "src/archived/*",
+]
+
 [workspace]
 members = [
     "wagyu-zcash-parameters-1",
